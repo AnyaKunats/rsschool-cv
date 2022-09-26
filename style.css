@@ -1,0 +1,230 @@
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dedede;
+    margin: 0;
+    padding: 0;
+}
+
+.container_left{
+    background-color: #f8f857;
+    padding-left: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.container_right{
+    background-color: white;
+    padding-left: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    margin: 25px auto auto auto;
+    border-radius: 50%;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.line_left{
+    margin: 3px 0 0 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+}
+
+.line_right{
+    margin: 3px 0 0 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 50px 0 0 0; 
+    padding: 0;
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.contacts, .education, .skills, .english{
+    margin-top: 30px;
+}
+
+.menu_contacts{
+    
+}
+
+.menu_contacts_item{
+    height: 16px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.menu_contacts_img{
+    margin-right: 5px;
+}
+
+.text_education{
+    margin-top: 10px;
+}
+
+.menu_skills{
+    margin-top: 10px; 
+}
+
+.menu_skills_item{
+    margin-top: 7px;
+}
+
+.text_english{
+    margin-top: 10px;
+}
+
+span{
+    font-weight: 700;
+}
+
+.summary{
+    margin-top: 50px;
+}
+
+.code{
+    margin-top: 50px;
+}
+
+.summary_text{
+    margin-top: 10px;
+}
+
+.code_text{
+    margin-top: 10px;
+}
+
+.menu{
+    margin: auto;
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    height: 50px;
+
+}
+
+ul.menu_link{
+    padding: 15px;
+    float: right;
+}
+
+ul.menu_link li{
+    display: inline;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+
+a:visited{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.footer_link{
+    margin: auto;
+    padding: 5px;
+    width: 100px;
+    background-color: #f8f857;
+}
+
+.img_rs_school{
+    width: 100px;
+    height: 50px;
+}
+
+.my_link{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a:visited.github_link{
+    color: black;
+}
+
