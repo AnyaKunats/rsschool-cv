@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>ANNA KUNATS</title>
+    </head>
+
+    <body>
+        <header class="head">
+            <nav class="menu">
+                <ul class="menu_link">
+                    <li class="menu_link_item"><a href = "#contacts">contacts</a></li>
+                    <li class="menu_link_item"><a href = "#education">education</a></li>
+                    <li class="menu_link_item"><a href = "#skills">skills</a></li>
+                    <li class="menu_link_item"><a href = "#english">english</a></li>
+                    <li class="menu_link_item"><a href = "#summary">summary</a></li>
+                    <li class="menu_link_item"><a href = "#code">code</a></li>    
+                </ul>
+            </nav>            
+        </header>
+        <main class="main">
+
+            <div class="container_left">
+                <img src="img.jpg" alt="photo" class="photo">
+                <section class="contacts">
+                    <a name = "contacts"></a>
+                    <h2>contacts</h2>
+                    <hr class="line_left"></hr>
+                    <ul class="menu_contacts">
+                        <li class="menu_contacts_item"><img src="location.png" alt="Location" class="menu_contacts_img">Brest, Belarus</li>
+                        <li class="menu_contacts_item"><img src="email.png" alt="Email" class="menu_contacts_img">anya.kunats@gmail.com</li>
+                        <li class="menu_contacts_item"><img src="telegram.png" alt="Telegram" class="menu_contacts_img">anya_kunats</li>
+                        <li class="menu_contacts_item"><img src="github.png" alt="GitHub" class="menu_contacts_img">AnyaKunats</li>
+                        <li class="menu_contacts_item"><img src="discord.png" alt="Discord" class="menu_contacts_img">Anna Kunats#9711</li>
+                    </ul>
+                </section>
+                <section class="education">
+                    <a name = "education"></a>
+                    <h2>education</h2>
+                    <hr class="line_left"></hr>
+                    <div class="text_education">State Technical University</div>
+                </section>
+                <section class="skills">
+                    <a name = "skills"></a>
+                    <h2>skills</h2>
+                    <hr class="line_left"></hr>
+                    <ul class="menu_skills">
+                        <li class="menu_skills_item"><span>Web-development:</span> HTML5(semantic), CSS3(flexbox), JavaScript, PHP.</li>
+                        <li class="menu_skills_item"><span>Frameworks and libraries:</span> React.</li>
+                        <li class="menu_skills_item"><span>DBMS:</span> PostgreSQL, SQLite, MySQL.</li>
+                        <li class="menu_skills_item"><span>Version control:</span> GIT, GitHub.</li>
+                        <li class="menu_skills_item"><span>Graphics:</span> Figma.</li>
+                    </ul>
+                </section>
+                <section class="english">
+                    <a name = "english"></a>
+                    <h2>english</h2>
+                    <hr class="line_left"></hr>
+                    <div class="text_english">A2 - Elementary</div>
+                </section>
+                
+            </div>
+        
+            <div class="container_right">
+                <section class="name">
+                    <h1>Anna kunats</h1>
+                    <h3>Junior Front-end Developer</h3>
+                </section>
+                <section class="summary">
+                    <a name = "summary"></a>
+                    <h2>summary</h2>
+                    <hr class="line_right"></hr>
+                    <div class="summary_text">I like programming, it’s very interesting. I’m a 1C-developer, but I want to be a front-end developer.</div>
+                </section>
+                <section class="code">
+                    <a name = "code"></a>
+                    <h2>code</h2>
+                    <hr class="line_right"></hr>
+                    <code class="code_text"><br>
+                        const calculate=(...x)=>(...y)=> {<br>
+                            return [].concat(x,y).reduce((a,b)=>a+b,0)<br>
+                        }<br><br>
+                                            
+                        function isIsogram(str){<br>
+                            let arr  = str.toLocaleLowerCase().split('');<br>
+                            let x=0;<br>
+                            arr.forEach((el, index, arr)=>{<br>
+                                arr.forEach((item, i, arr)=>{<br>
+                                    if(el===item)<br>
+                                        x+=1<br>
+                                })<br>
+                            })<br>
+                            return x===str.length ? true : false<br>
+                        }
+                    </code>                
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer_link">
+                <div class="my_link">
+                    <p>2022</p>
+                <a href="https://github.com/AnyaKunats" class="github_link">GitHub</a>
+                </div>            
+                <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school" class="img_rs_school">
+                </a>
+            </div>    
+            
+        </footer>
+
+    </body>
+
+</html>
