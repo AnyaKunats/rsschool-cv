@@ -1,1 +1,1 @@
-My CV: https://AnyaKunats.github.io/rsschool-cv/
+https://AnyaKunats.github.io/rsschool-cv/
